@@ -32,6 +32,8 @@ skills/
     adjust-retail-sales-by-index/
   system/
     analyze-macos-system-data/
+  tools/
+    summarize-bilibili-video/
 ```
 
 ## Skills
@@ -58,6 +60,18 @@ Example usage:
 
 ```text
 Use analyze-macos-system-data to explain why macOS System Data is taking so much space, listing the largest confirmed contributors and safe next steps.
+```
+
+### Tools
+
+#### `summarize-bilibili-video`
+
+*Fetch Bilibili video subtitles and summarize the video from the transcript.*
+
+Example usage:
+
+```text
+Use summarize-bilibili-video to summarize this video: https://www.bilibili.com/video/BV1EfTe6jEVe
 ```
 
 ## Adding a New Skill

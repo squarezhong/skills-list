@@ -32,6 +32,8 @@ skills/
     adjust-retail-sales-by-index/
   system/
     analyze-macos-system-data/
+  tools/
+    summarize-bilibili-video/
 ```
 
 ## Skills
@@ -58,6 +60,18 @@ skills/
 
 ```text
 请使用 analyze-macos-system-data 分析 macOS System Data 为什么占用这么大，列出最大的确认来源和安全后续步骤。
+```
+
+### Tools
+
+#### `summarize-bilibili-video`
+
+*抓取 Bilibili 视频字幕并基于字幕内容进行总结。*
+
+示例用法：
+
+```text
+请使用 summarize-bilibili-video 总结这个视频：https://www.bilibili.com/video/BV1EfTe6jEVe
 ```
 
 ## 添加新 Skill
